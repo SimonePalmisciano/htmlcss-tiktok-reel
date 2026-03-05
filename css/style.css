@@ -77,6 +77,21 @@ footer {
 	line-height: 1.2;
 }
 
+div.footer-menu {
+	display: flex;
+	background-color: black;
+}
+
+div.footer-menu-item {
+	width: calc(100% / 5);
+	height: 100%;
+	text-align: center;
+}
+
+p.footer-icon-content {
+	font-size: 6px;
+}
+
 /* Sidebar */
 .sidebar {
 	padding: 0 16px;
