@@ -18,8 +18,7 @@ video {
 }
 
 .reel-page {
-	height: 100vh;
-	/* ti incuriosisce? */
+	height: 100vh; /* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -51,6 +50,10 @@ div.reel-header-item a {
 	font-size: 1rem;
 }
 
+.text-small {
+	font-size: 0.9rem;
+}
+
 /* Header */
 
 .reel-header-item {
@@ -70,6 +73,10 @@ footer {
 	le tue regole, se necessario. */
 }
 
+.reel-footer {
+	line-height: 1.2;
+}
+
 /* Sidebar */
 .sidebar {
 	padding: 0 16px;
@@ -80,6 +87,39 @@ footer {
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 80px;
+    min-height: 200vh;
+}
+
+.sidebar-img {
+	width: 40px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.sidebar-item {
+	display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:white;
+    cursor:pointer;
+	padding-top: 15px;
+
+}
+
+.sidebar-item-icon {
+	font-size: 1.5rem;
+}
+
+.sidebar-item-content{
+	font-size: 0.7rem;
+}
+
 
 /* ---------------------
 Regole per evidenziare i blocchi 
