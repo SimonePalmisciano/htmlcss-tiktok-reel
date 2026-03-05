@@ -44,6 +44,10 @@ video {
 	color: white;
 }
 
+.text-opaque {
+	opacity: 60%;
+}
+
 div.reel-header-item a {
 	text-decoration: none;
 	color: inherit;
@@ -62,6 +66,23 @@ div.reel-header-item a {
 
 .reel-header-item {
 	margin: 20px 20px;
+	position: relative;
+}
+
+a.per-te:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+a.seguiti::before {
+    content: ".";
+    font-size: 50px;
+    color: red;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+    translate: 40% -4%;
 }
 
 /* Footer */
