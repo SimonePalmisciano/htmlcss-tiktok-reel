@@ -51,7 +51,11 @@ div.reel-header-item a {
 }
 
 .text-small {
-	font-size: 0.9rem;
+	font-size: 0.7rem;
+}
+
+.text-center {
+	text-align: center;
 }
 
 /* Header */
@@ -77,19 +81,35 @@ footer {
 	line-height: 1.2;
 }
 
+p.footer-profile,
+div.footer-description {
+	margin-bottom: 7px;
+}
+
 div.footer-menu {
 	display: flex;
 	background-color: black;
+	height: 50px;
 }
 
 div.footer-menu-item {
-	width: calc(100% / 5);
-	height: 100%;
-	text-align: center;
+    display: flex;
+    width: calc(100% / 5);
+    height: 100%;
+    align-items: center;
+	justify-content: center;
 }
 
 p.footer-icon-content {
-	font-size: 6px;
+	font-size: 7px;
+}
+
+.footer-icon {
+	font-size: 17px;
+}
+
+.bi-plus-square-fill {
+	font-size: 22px;
 }
 
 /* Sidebar */
@@ -109,6 +129,7 @@ p.footer-icon-content {
 	align-items: center;
 	min-width: 80px;
     min-height: 200vh;
+	gap: 15px;
 }
 
 .sidebar-img {
@@ -123,8 +144,6 @@ p.footer-icon-content {
     align-items:center;
     color:white;
     cursor:pointer;
-	padding-top: 15px;
-
 }
 
 .sidebar-item-icon {
